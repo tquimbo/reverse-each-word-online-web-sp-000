@@ -5,5 +5,4 @@ sentence.each do [word]
 puts word.reverse
 return sentence
 end
-
 end
