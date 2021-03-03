@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
 #first find a method that reveres a word in ruby
 sentence = []
 sentence.each do |word|
-puts word.reverse
+sentence << word.reverse
 return sentence
 end
 end
